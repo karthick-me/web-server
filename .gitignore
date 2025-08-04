@@ -1,0 +1,55 @@
+# Build artifacts
+*.o
+*.out
+*.obj
+*.a
+*.so
+*.exe
+
+# Compiler-generated files
+*.d
+*.dSYM/
+*.log
+
+# Editor/IDE files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# Binaries
+/bin/
+/build/
+/dist/
+/debug/
+/release/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# CMake or Make build files (optional)
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Test coverage / profiling
+*.gcda
+*.gcno
+*.gcov
+
+# Backup or temp files
+*.bak
+*.tmp
+
+# Ignore API/docs if generated, otherwise track them
+# (Optional: only uncomment if these are generated)
+# API.md
+# PLAN.md
+# STRUCTURE.md
+API.md
+PLAN.md
+STRUCTURE.md
