@@ -1,5 +1,5 @@
-#ifndef K_DARWIN_CONFIG
-#define K_DARWIN_CONFIG
+#ifndef DARWIN_CONFIG
+#define DARWIN_CONFIG
 
 
 
@@ -10,7 +10,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#include <k_socket.h>
+#include <socket.h>
 
 
 
